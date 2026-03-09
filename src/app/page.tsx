@@ -35,7 +35,7 @@ export default function LandingPage() {
             { name: "Contact", id: "contact" }
           ]}
           button={{
-            text: "Call Now",            href: "tel:+919876543210"
+            text: "Call Now",            href: "tel:+919695268765"
           }}
           className="fixed top-4 left-1/2 -translate-x-1/2 z-50"
           buttonClassName="bg-[var(--primary-cta)] text-[var(--primary-cta-text)] hover:opacity-90"
@@ -54,7 +54,7 @@ export default function LandingPage() {
           mediaAnimation="slide-up"
           imagePosition="right"
           buttons={[
-            { text: "Call Now: +91-98765-43210", href: "tel:+919876543210" },
+            { text: "Call Now: +91-96952-68765", href: "tel:+919695268765" },
             { text: "Book Appointment", href: "#contact" }
           ]}
           className="w-full"
@@ -75,16 +75,20 @@ export default function LandingPage() {
           animationType="slide-up"
           features={[
             {
-              id: "bridal",              title: "Bridal Makeup",              author: "Expert Artists",              description: "Transform into your most beautiful self on your special day. Professional bridal makeup with premium products and traditional techniques.",              tags: ["Full Service", "Trial Included"],              imageSrc: "http://img.b2bpic.net/free-photo/portrait-brunette-female-posing-with-colorful-flower-bouquet_613910-2096.jpg",              imageAlt: "Professional bridal makeup"
+              id: "bridal",              title: "Bridal Makeup",              author: "Expert Artists",              description: "Transform into your most beautiful self on your special day. Professional bridal makeup with premium products and traditional techniques.",              tags: ["Full Service", "Trial Included"],
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-brunette-female-posing-with-colorful-flower-bouquet_613910-2096.jpg",              imageAlt: "Professional bridal makeup"
             },
             {
-              id: "facial",              title: "Facial & Skin Care",              author: "Beauty Specialists",              description: "Glow facial, gold facial, and deep clean-up services. Rejuvenate your skin with professional treatments using premium skincare products.",              tags: ["Glow Facial", "Gold Facial"],              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-getting-beauty-treatment_329181-18828.jpg",              imageAlt: "Professional facial treatment"
+              id: "facial",              title: "Facial & Skin Care",              author: "Beauty Specialists",              description: "Glow facial, gold facial, and deep clean-up services. Rejuvenate your skin with professional treatments using premium skincare products.",              tags: ["Glow Facial", "Gold Facial"],
+              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-getting-beauty-treatment_329181-18828.jpg",              imageAlt: "Professional facial treatment"
             },
             {
-              id: "hair",              title: "Hair Services",              author: "Hair Experts",              description: "Hair cutting, hair spa treatments, and professional styling. Get the perfect look with our skilled hair specialists.",              tags: ["Hair Spa", "Styling"],              imageSrc: "http://img.b2bpic.net/free-photo/professional-girl-hairdresser-makes-client-haircut-girl-is-sitting-mask-beauty-salon_343596-4432.jpg",              imageAlt: "Professional hair styling"
+              id: "hair",              title: "Hair Services",              author: "Hair Experts",              description: "Hair cutting, hair spa treatments, and professional styling. Get the perfect look with our skilled hair specialists.",              tags: ["Hair Spa", "Styling"],
+              imageSrc: "http://img.b2bpic.net/free-photo/professional-girl-hairdresser-makes-client-haircut-girl-is-sitting-mask-beauty-salon_343596-4432.jpg",              imageAlt: "Professional hair styling"
             },
             {
-              id: "beauty",              title: "Beauty & Grooming",              author: "Beauty Technicians",              description: "Waxing, threading, manicure, pedicure, and complete grooming solutions. Polished and confident beauty treatments.",              tags: ["Waxing", "Threading"],              imageSrc: "http://img.b2bpic.net/free-photo/bamboo-whisk-sculpts-thigh-line-spa-smooth-skin_169016-69331.jpg",              imageAlt: "Professional waxing service"
+              id: "beauty",              title: "Beauty & Grooming",              author: "Beauty Technicians",              description: "Waxing, threading, manicure, pedicure, and complete grooming solutions. Polished and confident beauty treatments.",              tags: ["Waxing", "Threading"],
+              imageSrc: "http://img.b2bpic.net/free-photo/bamboo-whisk-sculpts-thigh-line-spa-smooth-skin_169016-69331.jpg",              imageAlt: "Professional waxing service"
             }
           ]}
           buttons={[
@@ -137,22 +141,28 @@ export default function LandingPage() {
           showRating={true}
           testimonials={[
             {
-              id: "1",              name: "Priya Sharma",              handle: "@priyabeauty",              testimonial: "Best bridal makeup I could have asked for! The team made me feel so confident on my wedding day. Highly recommended!",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/indoor-shot-attractive-caucasian-teenage-woman-with-long-dark-hair-sitting-desk-with-lots-textbooks_273609-1136.jpg",              imageAlt: "Priya Sharma"
+              id: "1",              name: "Priya Sharma",              handle: "@priyabeauty",              testimonial: "Best bridal makeup I could have asked for! The team made me feel so confident on my wedding day. Highly recommended!",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/indoor-shot-attractive-caucasian-teenage-woman-with-long-dark-hair-sitting-desk-with-lots-textbooks_273609-1136.jpg",              imageAlt: "Priya Sharma"
             },
             {
-              id: "2",              name: "Anjali Verma",              handle: "@anjali_glow",              testimonial: "The facial treatment was absolutely rejuvenating. My skin has never looked better. Thank you Nishi Beauty!",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-slim-sensual-girl-gray-dress-leaning-ag_613910-8706.jpg",              imageAlt: "Anjali Verma"
+              id: "2",              name: "Anjali Verma",              handle: "@anjali_glow",              testimonial: "The facial treatment was absolutely rejuvenating. My skin has never looked better. Thank you Nishi Beauty!",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-slim-sensual-girl-gray-dress-leaning-ag_613910-8706.jpg",              imageAlt: "Anjali Verma"
             },
             {
-              id: "3",              name: "Isha Patel",              handle: "@ishashine",              testimonial: "Professional, friendly, and affordable. My go-to salon for all my beauty needs. Love the ambiance!",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/content-beautiful-businesswoman-standing-window_1262-1778.jpg",              imageAlt: "Isha Patel"
+              id: "3",              name: "Isha Patel",              handle: "@ishashine",              testimonial: "Professional, friendly, and affordable. My go-to salon for all my beauty needs. Love the ambiance!",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/content-beautiful-businesswoman-standing-window_1262-1778.jpg",              imageAlt: "Isha Patel"
             },
             {
-              id: "4",              name: "Deepika Singh",              handle: "@deepika_glow",              testimonial: "The hair styling for my party was stunning. The team is so talented and friendly. Worth every rupee!",              rating: 4,              imageSrc: "http://img.b2bpic.net/free-photo/shot-beautiful-young-businesswoman-wearing-blue-chiffon-shirt-while-standing-with-folded-arms-gray-marble-wall_158595-6773.jpg",              imageAlt: "Deepika Singh"
+              id: "4",              name: "Deepika Singh",              handle: "@deepika_glow",              testimonial: "The hair styling for my party was stunning. The team is so talented and friendly. Worth every rupee!",              rating: 4,
+              imageSrc: "http://img.b2bpic.net/free-photo/shot-beautiful-young-businesswoman-wearing-blue-chiffon-shirt-while-standing-with-folded-arms-gray-marble-wall_158595-6773.jpg",              imageAlt: "Deepika Singh"
             },
             {
-              id: "5",              name: "Neha Gupta",              handle: "@neha_beauty",              testimonial: "Threading and waxing services are top-notch. Clean, hygienic, and professional. Highly satisfied!",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/young-attractive-emotional-girl-business-style-clothes-plain-white-background-office-audience_78826-2259.jpg",              imageAlt: "Neha Gupta"
+              id: "5",              name: "Neha Gupta",              handle: "@neha_beauty",              testimonial: "Threading and waxing services are top-notch. Clean, hygienic, and professional. Highly satisfied!",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/young-attractive-emotional-girl-business-style-clothes-plain-white-background-office-audience_78826-2259.jpg",              imageAlt: "Neha Gupta"
             },
             {
-              id: "6",              name: "Meera Joshi",              handle: "@meerasmile",              testimonial: "Visited for my first time and got the best experience. The staff is so welcoming and skilled!",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/young-camera-happy-beautiful-beach_1303-1815.jpg",              imageAlt: "Meera Joshi"
+              id: "6",              name: "Meera Joshi",              handle: "@meerasmile",              testimonial: "Visited for my first time and got the best experience. The staff is so welcoming and skilled!",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/young-camera-happy-beautiful-beach_1303-1815.jpg",              imageAlt: "Meera Joshi"
             }
           ]}
         />
@@ -195,7 +205,7 @@ export default function LandingPage() {
             },
             {
               title: "Contact Info",              items: [
-                { label: "📞 +91-98765-43210", href: "tel:+919876543210" },
+                { label: "📞 +91-96952-68765", href: "tel:+919695268765" },
                 { label: "📍 Brahmachari Ka Kuwa, Uttar Pradesh 231001", href: "https://maps.google.com/?q=Nishi+Beauty+Parlour" },
                 { label: "📧 info@nishibeauty.com", href: "mailto:info@nishibeauty.com" },
                 { label: "🕐 Mon-Sun: 10AM-8PM", href: "#" }
@@ -205,7 +215,7 @@ export default function LandingPage() {
               title: "Connect With Us",              items: [
                 { label: "Instagram", href: "https://instagram.com" },
                 { label: "Facebook", href: "https://facebook.com" },
-                { label: "WhatsApp", href: "https://wa.me/919876543210" },
+                { label: "WhatsApp", href: "https://wa.me/919695268765" },
                 { label: "Google Reviews", href: "https://google.com/maps" }
               ]
             }
